@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "noise_cleaning",
+      "name": "Noise Cleaning Models",
+      "models": [
+        {
+          "id": "deepfilternet_3",
+          "name": "DeepFilterNet 3",
+          "description": "Premium noise suppression (Zipped package)",
+          "filename": "DeepFilterNet3.zip",
+          "is_zip": true,
+          "size_bytes": 7986207,
+          "drive_id": "1F54Vg5yt7luXnuFFtaZ-PWxtea0D_6oH"
+        }
+      ]
+    },
+    {
+      "id": "stt",
+      "name": "Speech-to-Text (STT)",
+      "models": [
+        {
+          "id": "whisper_base",
+          "name": "Whisper Base",
+          "description": "Fast & Lightweight",
+          "filename": "ggml-base.bin",
+          "size_bytes": 147951465,
+          "drive_id": "1bn3YMm6GkSS3SYmskcdajtXBXa_6sPu_"
+        },
+        {
+          "id": "whisper_small",
+          "name": "Whisper Small",
+          "description": "Balanced",
+          "filename": "ggml-small.bin",
+          "size_bytes": 487601967,
+          "drive_id": "1GwaKgIIHeY9ccGV65X7et6pld0w-vhMy"
+        },
+        {
+          "id": "whisper_medium",
+          "name": "Whisper Medium",
+          "description": "High Accuracy",
+          "filename": "ggml-medium.bin",
+          "size_bytes": 1533763059,
+          "drive_id": "1GRPvLICzqbcUEmxn0D9NkQjTGG6biFQH"
+        },
+        {
+          "id": "whisper_large_turbo",
+          "name": "Whisper Large Turbo V3",
+          "description": "Best English & Urdu Support",
+          "filename": "ggml-large-v3-turbo.bin",
+          "size_bytes": 1624555275,
+          "drive_id": "1HGNtq2_x_FFNEeebelkwGzYehlhfCXL0"
+        }
+      ]
+    },
+    {
+      "id": "nlp",
+      "name": "AI Text Engines (NLP)",
+      "models": [
+        {
+          "id": "qwen_2_5_1_5b",
+          "name": "Qwen 2.5 1.5B Instruct",
+          "description": "Smart Formatting & Grammar",
+          "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+          "size_bytes": 1117320736,
+          "drive_id": "1B6E1uKFCNDcBvZMkm1zMVm3wxoBh7XvA"
+        }
+      ]
+    }
+  ]
+}
