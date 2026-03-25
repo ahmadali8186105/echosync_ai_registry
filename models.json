@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "categories": [
     {
       "id": "noise_cleaning",
@@ -8,7 +8,7 @@
         {
           "id": "dtln_quantized",
           "name": "DTLN (Quantized)",
-          "description": "Lightweight noise cleaning model",
+          "description": "Lightweight noise cleaning model (TFLite)",
           "filename": "DTLN-Quantized.zip",
           "is_zip": true,
           "size_bytes": 725853,
@@ -17,7 +17,7 @@
         {
           "id": "dtln",
           "name": "DTLN",
-          "description": "Standard DTLN noise cleaning model",
+          "description": "Standard DTLN noise cleaning model (TFLite)",
           "filename": "DTLN.zip",
           "is_zip": true,
           "size_bytes": 3686536,
@@ -26,7 +26,7 @@
         {
           "id": "deepfilternet2",
           "name": "DeepFilterNet 2",
-          "description": "High-quality deep filtering noise cleaning",
+          "description": "High-quality deep filtering noise cleaning (ONNX)",
           "filename": "DeepFilterNet2.zip",
           "is_zip": true,
           "size_bytes": 8620353,
@@ -35,7 +35,7 @@
         {
           "id": "deepfilternet3",
           "name": "DeepFilterNet 3",
-          "description": "Latest deep filtering noise cleaning model",
+          "description": "Latest deep filtering noise cleaning model (ONNX)",
           "filename": "DeepFilterNet3.zip",
           "is_zip": true,
           "size_bytes": 7976006,
@@ -50,7 +50,7 @@
         {
           "id": "whisper_base",
           "name": "Whisper Base",
-          "description": "Fast and lightweight STT model",
+          "description": "Fast and lightweight STT model (TFLite)",
           "filename": "whisper-base.zip",
           "is_zip": true,
           "size_bytes": 50589771,
@@ -59,7 +59,7 @@
         {
           "id": "whisper_small",
           "name": "Whisper Small",
-          "description": "Balanced accuracy and speed",
+          "description": "Balanced accuracy and speed (TFLite)",
           "filename": "whisper-small.zip",
           "is_zip": true,
           "size_bytes": 163043705,
@@ -68,7 +68,7 @@
         {
           "id": "whisper_medium",
           "name": "Whisper Medium",
-          "description": "High accuracy STT model",
+          "description": "High accuracy STT model (TFLite)",
           "filename": "whisper-medium.zip",
           "is_zip": true,
           "size_bytes": 506520834,
@@ -77,7 +77,7 @@
         {
           "id": "whisper_large_v3_turbo",
           "name": "Whisper Large V3 Turbo",
-          "description": "Ultra-high performance STT model",
+          "description": "Ultra-high performance STT model (TFLite)",
           "filename": "whisper-large-v3-turbo.zip",
           "is_zip": true,
           "size_bytes": 673265560,
@@ -92,7 +92,7 @@
         {
           "id": "qwen2_5_0_5b",
           "name": "Qwen 2.5 0.5B Instruct",
-          "description": "Compact and capable language model",
+          "description": "Compact and capable language model (GGUF)",
           "filename": "qwen2.5-0.5b-instruct-q4_k_m.zip",
           "is_zip": true,
           "size_bytes": 476933707,
@@ -101,7 +101,7 @@
         {
           "id": "llama_3_2_1b",
           "name": "Llama 3.2 1B Instruct",
-          "description": "Meta's lightweight open-source model",
+          "description": "Meta's lightweight open-source model (GGUF)",
           "filename": "Llama-3.2-1B-Instruct-Q4_K_M.zip",
           "is_zip": true,
           "size_bytes": 789191413,
@@ -110,7 +110,7 @@
         {
           "id": "qwen2_5_1_5b",
           "name": "Qwen 2.5 1.5B Instruct",
-          "description": "Balanced performance language model",
+          "description": "Balanced performance language model (GGUF)",
           "filename": "qwen2.5-1.5b-instruct-q4_k_m.zip",
           "is_zip": true,
           "size_bytes": 1091133816,
@@ -119,7 +119,7 @@
         {
           "id": "llama_3_2_3b",
           "name": "Llama 3.2 3B Instruct",
-          "description": "Smart and powerful language model",
+          "description": "Smart and powerful language model (GGUF)",
           "filename": "Llama-3.2-3B-Instruct-Q4_K_M.zip",
           "is_zip": true,
           "size_bytes": 1981437594,
@@ -129,3 +129,4 @@
     }
   ]
 }
+
